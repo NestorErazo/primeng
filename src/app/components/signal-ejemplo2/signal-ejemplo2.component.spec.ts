@@ -21,3 +21,4 @@ describe('SignalEjemplo2Component', () => {
     expect(component).toBeTruthy();
   });
 });
+

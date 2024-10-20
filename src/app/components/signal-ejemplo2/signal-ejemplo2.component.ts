@@ -1,3 +1,4 @@
+
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 
 @Component({
@@ -15,3 +16,4 @@ export class SignalEjemplo2Component {
     this.nombre.set(nombre)
   }
 }
+

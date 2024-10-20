@@ -1,3 +1,4 @@
+
 import { Routes } from '@angular/router';
 import { SignalEjemplo1Component } from './components/signal-ejemplo1/signal-ejemplo1.component';
 import { SignalEjemplo2Component } from './components/signal-ejemplo2/signal-ejemplo2.component';
@@ -18,3 +19,5 @@ export const routes: Routes = [
     }
     
 ];
+
+
