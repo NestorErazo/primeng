@@ -1,3 +1,4 @@
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SignalEjemplo1Component } from './signal-ejemplo1.component';
@@ -21,3 +22,4 @@ describe('SignalEjemplo1Component', () => {
     expect(component).toBeTruthy();
   });
 });
+

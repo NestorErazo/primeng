@@ -1,0 +1,47 @@
+<div class="card flex justify-content-center">
+
+    <div class="flex flex-column gap-2">
+    
+    <label for="username">Ingrese una tarea</label>
+    
+    <input 
+    
+    pInputText
+    
+    id="todo" 
+    
+    aria-describedby="username-help"
+    
+    name="todo"
+    
+    #todo 
+    
+    />
+    
+    <small id="username-help">
+    
+    Ingrese las tareas a realizar
+    
+    </small>
+    
+    </div>
+    
+    <p-button label="Incrementar Contador" severity="success" (click)="addTodo(todo)"/>
+    
+    </div>
+    
+     
+    
+    <ul>
+    
+    @for( item of todos(); track item){
+    
+    <li>
+    
+    {{item}}
+    
+    </li>
+    
+    }
+    
+    </ul>

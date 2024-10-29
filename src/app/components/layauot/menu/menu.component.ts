@@ -1,7 +1,9 @@
+
 import { Component } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 import { MenubarModule } from 'primeng/menubar';
-import { SignalEjemplo1Component } from '../../signal-ejemplo1/signal-ejemplo1.component';
+
+
 
 @Component({
   selector: 'app-menu',
@@ -17,53 +19,43 @@ export class MenuComponent {
             this.items = [
             {
             label: 'Home',
-            icon: 'pi pi-home'
+            icon: 'pi pi-home',
+            routerLink: '/'
             },
           {
-          label: 'Features',
+          label: 'Ejemplos',
           icon: 'pi pi-star'
           },
             {
-            label: 'Projects',
+            label: 'Ejemplos',
             icon: 'pi pi-search',
             items: [
             {
             label: 'Ejemplo 1',
             icon: 'pi pi-bolt',
-            routerLink:'signal-SignalEjemplo1'
+            routerLink:'signal-ejemplo1'
            
           },
           {
             label: 'Ejemplo 2',
             icon: 'pi pi-bolt',
-            routerLink:'signal-SignalEjemplo2'
+            routerLink:'signal-ejemplo2'
            
           },
-
-            {
-          label: 'Blocks',
-          icon: 'pi pi-server'
+          
+          {
+            label: 'Ejemplo 3',
+            icon: 'pi pi-bolt',
+            routerLink:'signal-ejemplo3'
+           
           },
           {
-          label: 'UI Kit',
-          icon: 'pi pi-pencil'
-          },
-          {
-          label: 'Templates',
-          icon: 'pi pi-palette',
-          items: [
-          {
-          label: 'Apollo',
-          icon: 'pi pi-palette'
-          },
-          {
-          label: 'Ultima',
-          icon: 'pi pi-palette'
-          }   ]
-          }   ] },
-          {
-          label: 'Contact',
-          icon: 'pi pi-envelope'
-      }   ]
+            label: 'Ejemplo 4',
+            icon: 'pi pi-bolt',
+            routerLink:'signal-ejemplo4'          
+          }
+          ]}
+        ]
       }
 }
+

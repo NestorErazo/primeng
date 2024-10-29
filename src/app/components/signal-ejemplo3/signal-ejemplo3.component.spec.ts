@@ -1,19 +1,18 @@
-
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FooterComponent } from './footer.component';
+import { SignalEjemplo3Component } from './signal-ejemplo3.component';
 
-describe('FooterComponent', () => {
-  let component: FooterComponent;
-  let fixture: ComponentFixture<FooterComponent>;
+describe('SignalEjemplo3Component', () => {
+  let component: SignalEjemplo3Component;
+  let fixture: ComponentFixture<SignalEjemplo3Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FooterComponent]
+      imports: [SignalEjemplo3Component]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FooterComponent);
+    fixture = TestBed.createComponent(SignalEjemplo3Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -22,4 +21,3 @@ describe('FooterComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
